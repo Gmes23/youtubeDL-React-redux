@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body { 
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.search-bar{
+    margin: 20px;
+    text-align: center;
+}
+
+.Logo {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-top: 1px solid #000;
+    border-bottom: 2px solid #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.search-bar input {
+    width: 55%;
+    border-top: 1px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.video-item img{
+    max-width: 64px;
+}
+
+video-detail .details{
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+.list-group-item:hover {
+    background-color: #eee;
+}
